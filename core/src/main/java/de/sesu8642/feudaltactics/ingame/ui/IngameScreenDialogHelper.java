@@ -12,17 +12,17 @@ import de.sesu8642.feudaltactics.lib.gamestate.HexTile;
 import de.sesu8642.feudaltactics.lib.gamestate.Player;
 import de.sesu8642.feudaltactics.lib.gamestate.ScenarioMap;
 import de.sesu8642.feudaltactics.lib.gamestate.Unit;
-import de.sesu8642.feudaltactics.renderer.MapRenderer;
+
+import de.sesu8642.feudaltactics.localization.LocalizationManager;
+import de.sesu8642.feudaltactics.menu.common.ui.DialogFactory;
+import de.sesu8642.feudaltactics.menu.common.ui.FeudalTacticsDialog;
+import de.sesu8642.feudaltactics.platformspecific.PlatformSharing;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import de.sesu8642.feudaltactics.localization.LocalizationManager;
-import de.sesu8642.feudaltactics.menu.common.ui.DialogFactory;
-import de.sesu8642.feudaltactics.menu.common.ui.FeudalTacticsDialog;
-import de.sesu8642.feudaltactics.platformspecific.PlatformSharing;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
