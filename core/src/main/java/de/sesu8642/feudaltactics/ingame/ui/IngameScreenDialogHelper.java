@@ -222,7 +222,7 @@ public class IngameScreenDialogHelper {
 
         final FeudalTacticsDialog dialog = dialogFactory.createInformationDialog(() -> { });
         dialog.headline("Leaderboard");
-        dialog.text("Round " + gameState.getRound() + "\\n");
+        dialog.text("Round " + gameState.getRound() + "\n");
         final List<List<String>> rows = new ArrayList<>();
         rows.add(List.of("Player", "Claimed tiles", "Army strength", "Status"));
         int rank = 1;
